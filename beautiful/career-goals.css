@@ -12,8 +12,7 @@
   grid: 2rem auto/repeat(2, 50%);
   grid-column-gap: 2rem;
   justify-content: center;
-  width: 100%;
-  max-width: 54em;
+  max-width: 57.5em;
   border-radius: 2%;
   margin-left: 4%;
   margin-top: 3%;
@@ -42,9 +41,6 @@
     font-size: 14px;
 }
 
-#add-blank{
-    margin-right: 50em;
-}
 #body-6 .folder {
   grid-column: 1/-1;
 }

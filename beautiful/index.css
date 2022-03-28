@@ -23,13 +23,13 @@ body {
 }
 
 .information-name > h3 {
-  font-size: xx-large;
+  font-size: xxx-large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   font-weight: bold;
 }
 
 .social-media {
-  margin-top: 3.5em;
+  margin-top: 3em;
 }
 
 .social-media > a > img {
@@ -65,16 +65,17 @@ body {
   margin-top: 2em;
   border-radius: 15px;
   min-width: 15%;
-  max-height: 100.5em;
+  max-width: 2em;
+  max-height: 90em;
 }
 
 .body-2 {
   background: linear-gradient(to top right, #66ccff 0%, #ffccff 100%);
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: -3em;
   border-radius: 15px;
   min-height: 20em;
-  width: 76%;
+  width: 78%;
 }
 
 .icon-same {
@@ -348,4 +349,24 @@ body {
   background-color: #ddd;
   border-radius: 5px;
 }
+.video-audio{
+  display: flex;
+}
+.video-audio > img{
+  width: 30em;
+  height: 4.5em;
+  margin-top: 1em;
+  border-radius: 30px;
+  border: 5px double #eb1159;
+}
 
+.font-audio{
+  display: none;
+}
+
+#icon-song > img{
+  width: 50px;
+  height: 50px;
+  margin-top: 1.7em;
+  margin-left: 1em;
+}

@@ -1,0 +1,170 @@
+#body-9 {
+  background: linear-gradient(to top left, #ff99ff 0%, #003366 100%);
+  margin-top: 1.3em;
+  border-radius: 15px;
+  min-height: 60em;
+  min-width: 44em;
+  margin-left: 2em;
+  color: white;
+}
+.with-out-favorite {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.icon-favorite > img {
+  width: 80px;
+  height: 80px;
+  margin-top: 1em;
+}
+.text-favorite > h1 {
+  font-size: 40px;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.picture-all-favorite{
+  margin-left: 3.5%;
+  display: flex;
+}
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.image:hover {
+  -webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 0.75);
+}
+.image {
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(120, 178, 192, 0.75);
+  box-shadow: 0px 0px 15px 5px rgba(100, 220, 250, 0.75);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.image:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.image {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes xoayvong{
+  from{
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+  }
+  to{
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+  }
+}
+/* Standard syntax */ 
+@keyframes xoayvong {
+  from{
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+  }
+  to{
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+  }
+}
+.rotate-same{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 3em;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.rotate-same:hover{
+  border: 3px double rgb(238, 48, 152);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.music-song{
+  display: flex;
+}
+
+.watch-movie > img {
+  width: 950px;
+  height: 580px;
+  margin-left: 0.8em;
+  position: relative;
+}
+.youtube{
+  z-index: 2;
+  position: absolute;
+  top: 19.38em;
+  left: 15.55em;
+}
+.tourism-all > button{
+  margin: auto;
+  margin-right: 1.4em;
+}
+.text-tour{
+  max-width: 41em;
+  margin: auto;
+  margin-top: 1em;
+  min-height: 22em;
+  border-radius: 40px;
+  background-size: cover;
+}
+.text-tour > h3 {
+  font-family: "Oleo Script", cursive;
+  text-align: right;
+  margin-right: 2.5em;
+}
+.tour-1{
+  background-image: url(../picture/imageedit_1_4977807910.png);
+  display: none;
+}
+.tour-2{
+  background-image: url(../picture/imageedit_2_2402555728.png);
+  display: none;
+}
+.tour-3{
+  background-image: url(../picture/imageedit_4_5690913207.png);
+  display: none;
+}
+.tour-4{
+  background-image: url(../picture/imageedit_5_9498111377.png);
+  display: none;
+}
+.tour-5{
+  background-image: url(../picture/imageedit_6_6837712616.png);
+  display: none;
+}
+.tour-6{
+  background-image: url(../picture/imageedit_7_6043108722.png);
+  display: none;
+}
+.tour-7{
+  background-image: url(../picture/imageedit_8_6220239061.png);
+  display: none;
+}
+.text-tour > h1 {
+  font-family: "Oleo Script", cursive;
+  text-align: center;
+  padding-top: 0.5em;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.text-tour > p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  text-indent: 40px;
+  margin-left: 1.3em;
+  margin-right: 1.3em;
+}
