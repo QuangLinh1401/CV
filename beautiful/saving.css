@@ -1,0 +1,166 @@
+#savings{
+  background-image: url(../picture/pexels-marek-piwnicki-5997863.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 75.5em;
+  min-width: 44em;
+  margin-left: 2em;
+  margin-top: 1.3em;
+  padding-top: 1em;
+}
+.saving-1 > p{
+    font-size: 45px;
+  margin-left: 1em;
+  text-transform: capitalize;
+  font-family: "Oleo Script", cursive;
+  color: rgb(0, 0, 0);
+}
+.saving-2 > p{
+  margin-top: 1em;
+  font-size: 45px;
+margin-left: 1em;
+text-transform: capitalize;
+font-family: "Oleo Script", cursive;
+color: rgb(0, 0, 0);
+}
+.audio-all{
+  display: flex;
+}
+.audio-all > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 2em;
+}
+.audio-all > li{
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: "Oleo Script", cursive;
+  color: #9e021c;
+}
+.content-save {
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    width: 20em;
+    font-size: 25px;
+  font-family: "Oleo Script", cursive;
+  background-color: rgb(255, 255, 255);
+  border: 2px ridge red;
+}
+.save-time{
+    display: flex;
+}
+.save-time-1{
+    margin: 0em 1em 1em 1em;
+}
+.content-save{
+  color: #125db3;
+}
+.text-content-save > h3 {
+  font-family: "Oleo Script", cursive;
+  margin: 0em 1em 1em 1em;
+  color: rgb(114, 2, 2);
+}
+.save-time-2{
+    width: 20em;
+    height: 17.2em;
+    border-radius: 30px;
+    border: 3.5px solid #f7007b;
+}
+.save-time-2 > p {
+  font-size: 27px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 1em 1em 1em 1em;
+}
+.text-time-1{
+  display: none;
+  background-image: url(../picture/saving/imageedit_1_6360317182.png);
+  background-size: cover;
+}
+.text-time-2{
+  display: none;
+  background-image: url(../picture/saving/imageedit_2_7343804951.png);
+  background-size: cover;
+}
+.text-time-3{
+  display: none;
+  background-image: url(../picture/saving/imageedit_3_9187666853.png);
+  background-size: cover;
+}
+.text-time-4{
+  display: none;
+  background-image: url(../picture/saving/imageedit_4_6852690493.png);
+  background-size: cover;
+}
+.text-time-5{
+  display: none;
+  background-image: url(../picture/saving/imageedit_5_8300159980.png);
+  background-size: cover;
+}
+.text-time-6{
+  display: none;
+  background-image: url(../picture/saving/imageedit_6_7555219542.png);
+  background-size: cover;
+}
+.text-time-7{
+  display: none;
+  background-image: url(../picture/saving/imageedit_7_8135184699.png);
+  background-size: cover;
+}
+.text-time-8{
+  display: none;
+  background-image: url(../picture/saving/imageedit_8_7412337337.png);
+  background-size: cover;
+}
+.text-time-9{
+  display: none;
+  background-image: url(../picture/saving/imageedit_9_6337110298.png);
+  background-size: cover;
+}
+.text-time-10{
+  display: none;
+  background-image: url(../picture/saving/imageedit_10_8898291002.png);
+  background-size: cover;
+}
+.text-time-0{
+  background-image: url(../picture/saving/imageedit_0_3972948505.jpg);
+  background-size: cover;
+}
+#form-saving{
+  margin: 1em 1em 1em 2em ;
+  width: 80%;
+  height: 32em;
+  background: linear-gradient(to bottom right, #3399ff 0%, #33cc33 100%);
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+}
+.text-saving-form > p{
+    font-size: 30px;
+    margin-left: 2em;
+    margin-bottom: -0.5em;
+    text-align: left;
+    margin-bottom: 0.1em;
+    margin-top: 1em;
+    font-family: "Oleo Script", cursive;
+}
+.text-saving-form > input {
+  width: 80%;
+}
+.text-saving-form > textarea {
+  width: 20em;
+  height: 10em;
+}
+#a{
+  font-family: "Oleo Script", cursive;
+  font-size: xx-large;
+  margin-top: 0.5em;
+}
+#send-form > button{
+  border-radius: 30px;
+}
+.text-saving-form > textarea{
+  width: 80%;
+  height: 10em;
+}

@@ -2,10 +2,11 @@
   background: linear-gradient(to top left, #ff99ff 0%, #003366 100%);
   margin-top: 1.3em;
   border-radius: 15px;
-  min-height: 60em;
+  min-height: 50em;
   min-width: 44em;
   margin-left: 2em;
   color: white;
+  padding-bottom: 1em;
 }
 .with-out-favorite {
   display: flex;
@@ -167,4 +168,22 @@
   text-indent: 40px;
   margin-left: 1.3em;
   margin-right: 1.3em;
+}
+
+.letter-favorite{
+  margin-top: 1em;
+  background-image: url(../picture/Gia\ Lai\ In\ Me.png);
+  margin: auto;
+  margin-top: 1em;
+  background-size: cover;
+  margin: 2em 2em 0em 2em;
+  border-radius: 30px;
+  height: 35em;
+}
+.about-content{
+  padding-top: 4em;
+}
+.about-content > p {
+  font-family: 'Oleo Script', cursive;;
+  margin: 1.5em 1.5em 1.5em 1.5em;
 }

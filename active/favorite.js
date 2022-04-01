@@ -81,6 +81,8 @@ const btnTour_5 = $('.btn-info')
 const btnTour_6 = $('.btn-light')
 const btnTour_7 = $('.btn-dark')
 
+const letter = $('.letter-favorite')
+
 btnTour_1.onclick = function() {
     if(tour_1.style.display === 'none'){
         tour_1.style.display = "block"
@@ -90,9 +92,11 @@ btnTour_1.onclick = function() {
         tour_5.style.display = 'none'
         tour_6.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_1.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_2.onclick = function() {
@@ -104,9 +108,11 @@ btnTour_2.onclick = function() {
         tour_5.style.display = 'none'
         tour_6.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_2.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_3.onclick = function() {
@@ -118,9 +124,11 @@ btnTour_3.onclick = function() {
         tour_5.style.display = 'none'
         tour_6.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_3.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_4.onclick = function() {
@@ -132,9 +140,11 @@ btnTour_4.onclick = function() {
         tour_5.style.display = 'none'
         tour_6.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_4.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_5.onclick = function() {
@@ -146,9 +156,11 @@ btnTour_5.onclick = function() {
         tour_1.style.display = 'none'
         tour_6.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_5.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_6.onclick = function() {
@@ -160,9 +172,11 @@ btnTour_6.onclick = function() {
         tour_5.style.display = 'none'
         tour_1.style.display = 'none'
         tour_7.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_6.style.display = "none"
+        letter.style.display = 'block'
     }
 }
 btnTour_7.onclick = function() {
@@ -174,10 +188,11 @@ btnTour_7.onclick = function() {
         tour_5.style.display = 'none'
         tour_6.style.display = 'none'
         tour_1.style.display = 'none'
+        letter.style.display = 'none'
     }
     else{
         tour_7.style.display = "none"
+        letter.style.display = 'block'
     }
 }
-
 

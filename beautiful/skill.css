@@ -1,0 +1,307 @@
+.skill{
+    background-image: url(../picture/steffi-pereira-7cKcszWHD3o-unsplash.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 75.5em;
+  min-width: 44em;
+  margin-left: 2em;
+  margin-top: 1.3em;
+  padding-top: 1em;
+}
+.content-text > h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 45px;
+  margin-top: 0.7em;
+}
+.display-skill{
+  display: flex;
+  margin-bottom: 1em;
+}
+.display-skill > img {
+  margin-left: 1em;
+  width: 80px;
+  height: 80px;
+}
+.body-14{
+  height: 100%;
+  font-family: "Oleo Script", cursive;
+  place-items: center;
+  display: flex;
+}
+.skills-bars{
+  width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 2);
+  padding: 25px 30px;
+  margin-left: 2em;
+}
+.skills-bars .bars {
+  margin: 20px 0;
+}
+.skills-bars .bars:first-child {
+  margin-top: 0px;
+}
+.skills-bars .bars .infos {
+  margin-bottom: 5px;
+}
+.skills-bars .bars .infos span {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+}
+@keyframes showText {
+  100%{
+      opacity: 1;
+  }
+}
+.skills-bars .bars .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  background: #f0f0f0;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                    0px 1px     rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}     
+@keyframes animate {
+  100%{
+      transform: scaleX(1);
+  }
+} 
+.bars .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: -1.6em;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}         
+.progress-line.html span{
+  width: 90%;
+}
+.progress-line.css span{
+  width: 80%;
+}
+.progress-line.javascript span{
+  width: 50%;
+}
+.progress-line.nodejs span{
+  width: 50%;
+}
+.progress-line.react span{
+  width: 50%;
+}
+.progress-line.bootstrap span{
+  width: 50%;
+}
+.progress-line.php span{
+  width: 50%;
+}
+.bars .progress-line span::before{
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -10px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2{
+  100%{
+      opacity: 1;
+  }
+}
+.bars .progress-line span::after{
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  margin: 1px 0px;
+  border-radius: 3px;
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "80%";
+}
+.progress-line.javascript span::after{
+  content: "50%";
+}
+.progress-line.nodejs span::after{
+  content: "50%";
+}
+.progress-line.react span::after{
+  content: "50%";
+}
+.progress-line.bootstrap span::after{
+  content: "50%";
+}
+.progress-line.php span::after{
+  content: "50%";
+}
+
+.body-15{
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+.body-16{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.outers {
+  position: relative;
+  margin: 0 50px;
+  background: #111;
+  margin-top: 1em;
+}
+.button{
+  height: 70px;
+  width: 220px;
+  border-radius: 50px;
+}
+.outers button, .outers span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.outers button {
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 9;
+}
+.button button {
+  height: 60px;
+  width: 210px;
+  border-radius: 50px;
+  color: #000;
+}
+.outers span {
+  height: 100%;
+  width: 100%;
+  background: inherit;
+}
+.button span {
+  border-radius: 50px;
+}
+.outers:hover span:nth-child(1) {
+  filter: blur(7px);
+}
+.outers:hover span:nth-child(2) {
+  filter: blur(14px);
+}
+.outers:hover{
+  animation: rotate 1.5s linear infinite;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+@keyframes rotate {
+  0%{
+      filter: hue-rotate(0deg);
+  }
+  100%{
+      filter: hue-rotate(360deg);
+  }
+}
+@media (max-width) {
+  .body-16{
+      flex-wrap: wrap;
+      flex-direction: column;
+
+  }
+  .outers {
+      margin: 50px 0px;
+  }
+}
+.skill-same{
+  margin-top: -1em;
+  margin-bottom: 2em;
+}
+.second-skill{
+  display: flex;
+  margin-top: 1em;
+}
+.width-icon > button{
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 16px rgba(0, 0, 0, .5);
+  background-size: cover;
+}
+.skill-icon-1 > button{
+  background-image: url(../picture/skill/273178_github_icon.png);
+}
+.skill-icon-2 > button{
+  background-image: url(../picture/skill/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png);
+}
+.skill-icon-3 > button{
+  background-image: url(../picture/skill/mzl.gcxbqilv.png);
+}
+.skill-icon-4 > button{
+  background-image: url(../picture/skill/OTgxd3mt_400x400.jpeg);
+}
+.skill-icon-5 > button{
+  background-image: url(../picture/skill/mysql.png);
+}
+.skill-icon-6 > button{
+  background-image: url(../picture/skill/docker-2752207-2285024.webp);
+}
+.skill-icon-7 > button{
+  background-image: url(../picture/skill/unnamed.png);
+}
+.skill-icon-8 > button{
+  background-image: url(../picture/skill/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png);
+}
+.skill-icon-9 > button{
+  background-image: url(../picture/skill/xampp.png);
+}
+.skill-icon-10 > button{
+  background-image: url(../picture/skill/Illustrator-logo.jpeg);
+}
+.skill-icon-11 > button{
+  background-image: url(../picture/skill/Adobe_Photoshop_CC_icon.svg.png);
+}
+.skill-icon-12 > button{
+  background-image: url(../picture/skill/spline_icon_twitter.jpeg);
+}
+.skill-icon-13 > button{
+  background-image: url(../picture/skill/BoLFgN9pB.gif);
+}
+.skill-icon-14 > button{
+  background-image: url(../picture/skill/cloud.png);
+}
+.skill-icon-15 > button{
+  background-image: url(../picture/skill/svelte.png);
+}
+
+.outers > button > img {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+}
