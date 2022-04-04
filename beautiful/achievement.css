@@ -1,0 +1,120 @@
+.body-23{
+  background-image: url(../picture/javid-naderi-YQUce0RBQSk-unsplash.jpg);
+  margin-top: 1.3em;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 55em;
+  min-width: 44em;
+  margin-left: 2em;
+  color: white;
+  padding-bottom: 1em;
+}
+.title-education{
+  font-family: "Oleo Script", cursive;
+  text-align: left;
+  padding-top: 0.5em;
+  color: rgb(255, 255, 255);
+}
+.title-education > h1 {
+  font-size: 50px;
+  margin-top: 0.5em;
+  color: antiquewhite;
+}
+.achi-table{
+  padding-top: 1em;
+  display: flex;
+  margin-left: -1em;
+}
+.skills{
+  margin-right: -2.3em;
+}
+
+/* --------------achi-edu---- */
+.learning-progress > button{
+  background-image: url(../picture/Learning-progress-removebg-preview.png);
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-left: 1.5em;
+}
+.semester{
+  display: flex;
+}
+.se{
+  width: 690px;
+  height: 250px;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 10px;
+}
+.ses{
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+.expear-1{
+  display: none;
+}
+.expear-2{
+  display: none;
+}
+.expear-3{
+  display: none;
+}
+.expear-4{
+  display: none;
+}
+.expear-5{
+  display: none;
+}
+.expear-6{
+  display: none;
+}
+.expear-7{
+  display: none;
+}
+.expear-8{
+  display: none;
+}
+.expear-9{
+  display: none;
+}
+.expear-10{
+  display: none;
+}
+.expear-11{
+  display: none;
+}
+.expear-12{
+  display: none;
+}
+
+/* -------Study------- */
+.job-achi > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0.5em 0.3em;
+  border: 4px solid rgb(124, 0, 0);
+}
+.study-achis > img {
+  border-radius: 10px;
+  width: 970px;
+  height: 30px;
+  margin-left: 2em;
+  border: 2px double rgb(216, 15, 172);
+}
+#abc{
+  display: block;
+}
+.project-me{
+  display: flex;
+}
+.project-me a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 0.5em;
+  border: 3px solid #d51212;
+}

@@ -29,3 +29,4 @@ icon.onclick = function (){
         icon.src = '../picture/play.png'
     }
 }
+

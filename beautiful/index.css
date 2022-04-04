@@ -66,7 +66,7 @@ body {
   border-radius: 15px;
   min-width: 15%;
   max-width: 2em;
-  max-height: 90em;
+  max-height: 78.5em;
 }
 
 .body-2 {
@@ -180,15 +180,20 @@ body {
   margin-bottom: -40px;
   margin-top: 35px;
 }
-
+.family-2{
+  margin-bottom: 2em;
+}
 .body-image > img {
   width: 80px;
   height: 80px;
+  margin-left: -1.5em;
 }
 
 .body-same > h1 {
   font-family: "Oleo Script", cursive;
+  margin-top: 0.5em;
   margin-left: -0.9em;
+  margin-bottom: -0.4em;
 }
 
 .body-same > p {
@@ -321,7 +326,13 @@ body {
 #nine-point > h1 {
   font-family: "Oleo Script", cursive;
 }
-
+.date > img{
+  width: 50px;
+  height: 50px;
+  margin-left: 1em;
+  margin-right: -1em;
+  margin-top: -0.5em;
+}
 #nine-point {
   margin-top: 1em;
 }
@@ -369,4 +380,95 @@ body {
   height: 50px;
   margin-top: 1.7em;
   margin-left: 1em;
+}
+
+/* -------------Insight----- */
+.body-33{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+}
+.point-gold{
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: minmax(190px, auto);
+  margin: 10px;
+  margin-top: 2px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+.point-same > img{
+  width: 50px;
+  height: 50px;
+}
+.point-insight{
+  background: linear-gradient(to right, #006666 0%, #336699 100%);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 3px solid #579dbf;
+}
+.point-insight:hover{
+  background: #e91e62f5;
+}
+.point-same > img {
+  position: relative;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+.point-same > p {
+  font-size: 15px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: justify;
+  text-indent: 25px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.point-insight:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.point-insight:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.point-insight:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.point-insight:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.point-insight:nth-child(5) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.point-insight:nth-child(7) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+.point-insight:nth-child(8) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.point-insight:nth-child(9) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+@media (max-width: 991px) {
+  .point-gold{
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+      grid-template-rows: minmax(auto, auto);
+  }
+  .point-insight{
+      grid-column: unset !important;
+      grid-row: unset !important;
+  }
 }
