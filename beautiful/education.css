@@ -11,7 +11,7 @@ h2 {
 }
 
 .body-5 {
-  background: linear-gradient(to top right, #ccffcc 0%, #ff99cc 100%);
+  background: linear-gradient(to bottom left, #ff99ff 0%, #33cccc 100%);
   margin-left: 3.5%;
   border-radius: 15px;
   min-height: 67em;
@@ -94,7 +94,6 @@ h2 {
   text-align: justify;
   word-break: break-word;
   hyphens: auto;
-  overflow: hidden;
 }
 
 label {
@@ -102,6 +101,7 @@ label {
   position: absolute;
   z-index: 100;
   cursor: pointer;
+  font-family: "Oleo Script", cursive;
   top: 20px;
   transition: transform 0.2s linear;
 }
@@ -118,7 +118,7 @@ label {
   background: #f98262;
 }
 .radio:checked ~ .content {
-  max-height: 500px;
+  max-height: 365px;
   border-color: #eee9dc;
   margin-right: 20px;
   transform: translateX(20px);
@@ -126,7 +126,7 @@ label {
     transform 0.2s linear;
 }
 .radio:checked ~ .content p {
-  max-height: 200px;
+  max-height: 350px;
   color: #eee9dc;
   transition: color 0.3s linear 0.3s;
 }

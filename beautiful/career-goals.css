@@ -82,6 +82,7 @@
   border: 2px solid transparent;
   padding: 6px 15px 6px;
   border-radius: 5px;
+  margin-top: 0.3em;
   z-index: 5;
   position: relative;
   font-size: 140%;
@@ -155,7 +156,7 @@
   -ms-overflow-style: none;
   /* IE 10+ */
 }
-.folder ::-webkit-scrollbar {
+.folder ::-webkit-scrollfont-size-span {
   background: transparent;
   /* Chrome/Safari/Webkit */
   display: none;
