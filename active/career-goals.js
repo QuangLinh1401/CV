@@ -109,15 +109,15 @@ const slider_quote = document.querySelector('#slide-end > img')
 var index = 1
 eventSlider = function() {
     var imgs = [
-        '../picture/quote/image1.jpeg',
-        '../picture/quote/image2.jpeg',
-        '../picture/quote/image3.jpeg',
-        '../picture/quote/image4.jpeg',
-        '../picture/quote/image5.jpeg',
-        '../picture/quote/image6.jpeg',
-        '../picture/quote/image7.jpeg',
-        '../picture/quote/image8.jpeg',
-        '../picture/quote/image9.jpeg'
+        '../picture/quote/image11.jpeg',
+        '../picture/quote/image21.jpeg',
+        '../picture/quote/image31.jpeg',
+        '../picture/quote/image41.jpeg',
+        '../picture/quote/image51.jpeg',
+        '../picture/quote/image61.jpeg',
+        '../picture/quote/image71.jpeg',
+        '../picture/quote/image81.jpeg',
+        '../picture/quote/image91.jpeg'
     ]
     if(index === 9){
         index = 0
