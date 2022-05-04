@@ -126,7 +126,6 @@ eventSlider = function() {
         slider_quote.src = imgs[index]
         index++
     }
-    console.log(index)
 }
 
 setInterval(eventSlider,3000)
