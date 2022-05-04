@@ -117,10 +117,9 @@ eventSlider = function() {
         '../picture/quote/image6.jpeg',
         '../picture/quote/image7.jpeg',
         '../picture/quote/image8.jpeg',
-        '../picture/quote/image9.jpeg',
-        '../picture/quote/image10.jpeg',
+        '../picture/quote/image9.jpeg'
     ]
-    if(index === 10){
+    if(index === 9){
         index = 0
     }
     else{
@@ -130,4 +129,4 @@ eventSlider = function() {
     console.log(index)
 }
 
-setInterval(eventSlider,5000)
+setInterval(eventSlider,3000)

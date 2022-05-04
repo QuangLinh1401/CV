@@ -86,25 +86,25 @@
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }         
 .progress-line.html span{
-  width: 90%;
-}
-.progress-line.css span{
   width: 80%;
 }
+.progress-line.css span{
+  width: 83%;
+}
 .progress-line.javascript span{
-  width: 50%;
+  width: 82%;
 }
 .progress-line.nodejs span{
-  width: 50%;
+  width: 80%;
 }
 .progress-line.react span{
-  width: 50%;
+  width: 87%;
 }
 .progress-line.bootstrap span{
-  width: 50%;
+  width: 95%;
 }
 .progress-line.php span{
-  width: 50%;
+  width: 97%;
 }
 .bars .progress-line span::before{
   position: absolute;
@@ -138,25 +138,25 @@
   border-radius: 3px;
 }
 .progress-line.html span::after{
-  content: "90%";
-}
-.progress-line.css span::after{
   content: "80%";
 }
+.progress-line.css span::after{
+  content: "83%";
+}
 .progress-line.javascript span::after{
-  content: "50%";
+  content: "82%";
 }
 .progress-line.nodejs span::after{
-  content: "50%";
+  content: "80%";
 }
 .progress-line.react span::after{
-  content: "50%";
+  content: "87%";
 }
 .progress-line.bootstrap span::after{
-  content: "50%";
+  content: "95%";
 }
 .progress-line.php span::after{
-  content: "50%";
+  content: "97%";
 }
 
 .body-15{
@@ -291,13 +291,13 @@
   background-image: url(../picture/skill/spline_icon_twitter.jpeg);
 }
 .skill-icon-13 > button{
-  background-image: url(../picture/skill/BoLFgN9pB.gif);
+  background-image: url(../picture/skill/Laravel.png);
 }
 .skill-icon-14 > button{
-  background-image: url(../picture/skill/cloud.png);
+  background-image: url(../picture/skill/canva-logo.png);
 }
 .skill-icon-15 > button{
-  background-image: url(../picture/skill/svelte.png);
+  background-image: url(../picture/skill/kisspng-iphone-8-plus-camiloc-oy-app-store-apple-logo-5acbdcb821d846.5097943615233097521386.jpg);
 }
 .outers > button > img {
   width: 30px;

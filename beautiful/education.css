@@ -8,14 +8,18 @@ h2 {
   letter-spacing: 2px;
   font-family: "Oleo Script", cursive;
   text-transform: uppercase;
+  color: yellow;
 }
 
 .body-5 {
-  background: linear-gradient(to bottom left, #ff99ff 0%, #33cccc 100%);
+  background: linear-gradient(to bottom right, #0099cc 0%, #cc6699 100%);
   margin-left: 3.5%;
   border-radius: 15px;
   min-height: 67em;
   margin-top: -3em;
+}
+#education-top{
+  color: white;
 }
 
 /* -------------------------------------

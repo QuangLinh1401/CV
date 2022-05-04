@@ -38,7 +38,7 @@
 }
 
 .font-size-span{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #body-6 .folder {
@@ -434,4 +434,6 @@ input.variation:nth-of-type(1) + label {
   height: 400px;
   margin-left: 20%;
   margin-top: 2em;
+  border-radius: 20px;
+  border: rgb(185, 24, 24) solid 3px;
 }
